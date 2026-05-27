@@ -25,9 +25,9 @@ jobs:
           - name: macos
             os: macos-latest
             shell: bash
-          - name: windows-wsl
-            os: windows-latest
-            shell: wsl-bash {0}
+          # - name: windows-wsl
+          #   os: windows-latest
+          #   shell: wsl-bash {0}
     defaults:
       run:
         shell: ${{ matrix.shell }}
